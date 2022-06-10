@@ -19,21 +19,8 @@ Route::group(['prefix' => 'admin'], function() {
 });
 Auth::routes();
 
-Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('XXX','AAAController@bbb');
 Route::get('admin/profile/create','Admin\ProfileController@add');
 Route::get('admin/profile/edit','Admin\ProfileController@edit');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
